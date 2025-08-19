@@ -57,7 +57,7 @@ const Items: React.FC = () => {
         <p>{error}</p>
         <button
           onClick={loadItems}
-          className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          className="mt-2 px-4 py-2 bg-[#646cffaa] text-white rounded hover:bg-[#646cffaa]"
         >
           Retry
         </button>
@@ -81,7 +81,7 @@ const Items: React.FC = () => {
         <h1 className="text-3xl font-bold text-gray-900">Items</h1>
         <Link
           to="/items/new"
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+          className="px-4 py-2 bg-[#646cffaa] rounded-md hover:bg-[#646cffaa]/30 text-amber-50"
         >
           Create New Item
         </Link>
@@ -92,7 +92,7 @@ const Items: React.FC = () => {
           <p className="text-gray-500 text-lg">No items found.</p>
           <Link
             to="/items/new"
-            className="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+            className="mt-4 inline-block px-4 py-2 bg-[#646cffaa] text-white rounded-md hover:bg-[#646cffaa]"
           >
             Create your first item
           </Link>
