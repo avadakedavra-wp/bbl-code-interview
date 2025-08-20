@@ -25,7 +25,7 @@ const CreateItems: React.FC = () => {
             createdAt: new Date().toISOString(),
           };
           try {
-            const response = await fetch("http://localhost:3000/items", {
+            const response = await fetch("/api/items", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

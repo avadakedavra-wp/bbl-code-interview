@@ -31,7 +31,7 @@ const Items: React.FC = () => {
   const loadItems = async () => {
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:3000/items");
+      const response = await fetch("/api/items");
       const fetchedItems = await response.json();
       setItems(fetchedItems);
       setError(null);
