@@ -1,0 +1,9 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "dockerfile"
+
+[deploy]
+startCommand = "npm run start:prod"
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "always"
