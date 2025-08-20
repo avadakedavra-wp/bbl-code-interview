@@ -44,19 +44,19 @@ const CreateItems: React.FC = () => {
         }}
       >
         <div className="mb-4">
-          <label className="block text-sm text-left font-medium text-gray-700 mb-2">
+          <label className="block text-sm text-left font-medium text-gray-700 dark:text-amber-50 mb-2">
             Name
           </label>
           <input
             type="text"
             value={name}
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+            className="bg-gray-50 border border-gray-300 text-gray-900  text-sm rounded-lg block w-full p-2.5"
             onChange={(e) => setName(e.target.value)}
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block text-sm text-left font-medium text-gray-700 mb-2">
+          <label className="block text-sm text-left font-medium text-gray-700 dark:text-amber-50 mb-2">
             Description
           </label>
           <input

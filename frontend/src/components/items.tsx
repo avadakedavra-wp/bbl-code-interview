@@ -78,10 +78,10 @@ const Items: React.FC = () => {
   return (
     <div className="px-4 py-6 sm:px-0">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold text-gray-900">Items</h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-amber-50">Items</h1>
         <Link
           to="/items/new"
-          className="px-4 py-2 bg-[#646cffaa] rounded-md hover:bg-[#646cffaa]/30 text-amber-50"
+          className="px-4 py-2 rounded-md hover:bg-[#646cffaa]/30"
         >
           Create New Item
         </Link>
