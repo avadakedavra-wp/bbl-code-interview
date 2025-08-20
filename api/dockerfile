@@ -1,5 +1,7 @@
 FROM node:lts
 
+ARG RAILWAY_ENVIRONMENT
+
 WORKDIR /app
 
 COPY package*.json ./
